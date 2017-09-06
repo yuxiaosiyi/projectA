@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="easyui/themes/default/easyui.css" />
+	    <link rel="stylesheet" type="text/css" href="easyui/themes/icon.css" />
+	    <script type="text/javascript" src="easyui/jquery.min.js"></script>
+	    <script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
+		<script type="text/javascript" src="js/um.js"></script>
+		<script type="text/javascript" src='easyui/locale/easyui-lang-zh_CN.js'> </script>
+		<title>用户管理</title>
+	</head>
+	<body>
+		用户管理
+		<hr size="0"/>
+		<table id="tab"></table>
+		
+		<div id="dialog" >
+		
+		<form action="" method="post" id="f1">
+			<table id="tb">
+				<tr>
+					<td>邮箱</td>
+					<td><input id="uemail" name="uemail" type="text" style="width:200px"></td>
+				</tr>
+				<tr>
+					<td>账号</td>
+					<td><input id="uloginid" name="uloginid" type="text" style="width:200px"></td>
+				</tr>
+				<tr>
+					<td>密码</td>
+					<td><input id="upassword" name="upassword" type="text" style="width:200px"></td>
+				</tr>
+				<tr>
+					<td>电话</td>
+					<td><input id="utel" name="utel" type="text" style="width:200px"></td>
+				</tr>
+				<tr>
+					<td>地址</td>
+					<td><input id="uaddress" name="uaddress" type="text" style="width:200px"></td>
+				</tr>
+				<tr>
+					<td>性别</td>
+					<td>
+						<select id="usex" class="easyui-combobox" name="usex" style="width:200px">
+							<option value="男">男</option>
+							<option value="女">女</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+		</form>
+		
+		<div id="footer">
+			<a id="btnsave" herf="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'">保存</a>
+			<a id="btncancel" herf="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'">取消</a>
+		</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<div id="dialogt" >
+		
+		<form action="" method="post" id="f2">
+			<table id="tb2">
+				<tr>
+					<td>账号id</td>
+					<td><input id="userid" name="userid" type="text" style="width:200px" class="easyui-textbox"></td>
+				</tr>
+				<tr><tr>
+					<td>邮箱</td>
+					<td><input id="uemailt" name="uemailt" type="text" style="width:200px" class="easyui-textbox"></td>
+				</tr>
+				<tr>
+					<td>账号</td>
+					<td><input id="uloginidt" name="uloginidt" type="text" style="width:200px" class="easyui-textbox"></td>
+				</tr>
+				<tr>
+					<td>密码</td>
+					<td><input id="upasswordt" name="upasswordt" type="text" style="width:200px" class="easyui-textbox"></td>
+				</tr>
+				<tr>
+					<td>电话</td>
+					<td><input id="utelt" name="utelt" type="text" style="width:200px" class="easyui-textbox"></td>
+				</tr>
+				<tr>
+					<td>地址</td>
+					<td><input id="uaddresst" name="uaddresst" type="text" style="width:200px" class="easyui-textbox"></td>
+				</tr>
+				<tr>
+					<td>性别</td>
+					<td>
+						<select id="usex2" class="easyui-combobox" name="usex2" style="width:200px">
+							<option value="男">男</option>
+							<option value="女">女</option>
+						</select>
+					</td>
+				</tr>
+				
+			</table>
+		</form>
+		
+		<div id="footert">
+			<a id="btnsavet" herf="#" class="easyui-linkbutton" data-options="iconCls:'icon-save'">保存</a>
+			<a id="btncancelt" herf="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'">取消</a>
+		</div>
+		</div>
+	</body>
+</html>
